@@ -8,6 +8,13 @@ Merge requests are welcome if you have suggestions for improving the documentati
 
 IICS is part of the infrastructure and services being delivered by the [Interoperability Initiative](https://interop.it.wisc.edu/).
 
-## Contents
+## Adding New Content
+Use [template.md](./template.md) to create new content.
 
-- [Training](./training.md)
+## Contents
+* [Quick Start Guide](./docs/quickstart.md)
+* [Benefits](./docs/benefits.md)
+* [Onboarding into IICS](./docs/onboarding.md)
+* [Concepts](./docs/concepts.md)
+* [Tutorials](./docs/tutorials.md)
+* [Training](./docs/training.md)
