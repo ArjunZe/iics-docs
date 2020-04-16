@@ -42,4 +42,5 @@ Use [template.md](./template.md) to create new content.
 * [Onboarding into IICS](./docs/onboarding.md)
 * [Concepts](./docs/concepts.md)
 * [Tutorials](./docs/tutorials.md)
+* [How To Guides](./docs/howto.md)
 * [Training](./docs/training.md)
