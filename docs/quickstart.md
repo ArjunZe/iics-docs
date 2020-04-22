@@ -6,7 +6,7 @@ Get started quickly with IICS using below steps.
     * [test](https://dm-us.informaticacloud.com/ma/sso/fu0Dw88PzqRdTYPctT73QJ)
     * [prod](https://dm-us.informaticacloud.com/ma/sso/732dcgB8WwTgRubL1mFU8R)
 
-If you can't access IICS web console [reach to us](../README.md)  
+If you can't access IICS web console reach out to us: ais-enterprise-integration-informatica@office365.wisc.edu  
 
 ## Where To Go Next?
 Learn more about IICS [concepts](./concepts.md), [tutorials](./tutorials.md), and [training](./training.md), or 
