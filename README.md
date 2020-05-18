@@ -43,3 +43,4 @@ Use [template.md](./template.md) to create new content.
 * [Tutorials](./docs/tutorials.md)
 * [How To Guides](./docs/howto.md)
 * [Training](./docs/training.md)
+* [Best Practices And Recommendations](./docs/best-practices.md)
