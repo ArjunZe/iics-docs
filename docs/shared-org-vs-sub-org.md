@@ -2,7 +2,7 @@
 
 Informatica Intelligent Cloud Services (IICS) uses the concept of an organization (an "org") as the highest level container for objects, which include assets, projects, connections.
 Orgs also contain a unique set of users and user groups.
-When onboarding to IICS, a decision will have to be made on whether to use the existing org for UW-Madison, or use a separate org (a "sub-org").
+When on-boarding to IICS, a decision will have to be made on whether to use the existing org for UW-Madison, or use a separate org (a "sub-org").
 
 The purpose of this document is to help prepare for this decision.
 
