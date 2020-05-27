@@ -44,3 +44,4 @@ Use [template.md](./template.md) to create new content.
 * [How To Guides](./docs/howto.md)
 * [Training](./docs/training.md)
 * [Best Practices And Recommendations](./docs/best-practices.md)
+* [Shared Orgs and Sub Orgs](./docs/shared-org-vs-sub-org.md)
