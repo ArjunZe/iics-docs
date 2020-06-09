@@ -44,3 +44,10 @@ Informatica offers video tutorials, how-to guides, and webinars through the [Suc
 Under "Product Learning Path", select Cloud Application Integration or Cloud Data Integration.
 
 Some areas of the Success Portal link out to [Informatica Network](https://network.informatica.com/), which includes FAQ articles, the Knowledge Base, product documentation, and user forums referred to as Communities.
+
+## Secure Agents for Training
+
+During some trainings, there might be mentions of setting up your own secure agent or accessing a secure agent directly.
+For training purposes, the shared test organization can be used to create secure agents.
+
+Please make sure to destroy any secure agents used for training purposes when the training is completed.
