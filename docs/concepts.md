@@ -20,6 +20,7 @@ The Secure Agent program is upgraded automatically by Informatica, but you are r
 
 The DoIT Integration Platform team has experience managing secure agents.
 We run our secure agent in a Docker container on Linux, hosted by Amazon Web Services (AWS).
+[The Secure Agent Docker image is available here](https://git.doit.wisc.edu/interop/iics/iics_secure_agent) if you want to build and try it yourself.
 We use AWS Elastic Container Service (ECS) to manage the secure agent deployment environment.
 By allowing ECS to run the Secure Agent container, we can make sure that the Secure Agent is always running because ECS would bring up a new instance if the current instance crashed.
 
