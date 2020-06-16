@@ -16,8 +16,8 @@ Java heap size can be increased according to the [KB](https://kb.informatica.com
 
 ## How can I deploy my own Secure Agent ?
 [which-firewall]: #how-can-i-deploy-my-own-secure-agent-
-AIS/EI maintains a Docker [image](https://git.doit.wisc.edu/interop/iics/iics_secure_agent/blob/master/README.md#iics-secure-agent-docker-image) 
-([reach out](../README.md) to us if you would like to access it), that can be used for your own Secure Agent deployments. See also Informatica [documentation](https://docs.informatica.com/integration-cloud/cloud-platform/current-version/administrator/runtime-environments/secure-agents.html) on Secure Agents.
+[AIS/EI maintains a Docker image](https://git.doit.wisc.edu/interop/iics/iics_secure_agent/blob/master/README.md#iics-secure-agent-docker-image) that can be used for your own Secure Agent deployments.
+See also Informatica [documentation](https://docs.informatica.com/integration-cloud/cloud-platform/current-version/administrator/runtime-environments/secure-agents.html) on Secure Agents.
 
 ## How to create a Manifest group for your team for access control?
 [manifest-group]: #how-to-create-a-manifest-group-for-your-team-for-access-control
