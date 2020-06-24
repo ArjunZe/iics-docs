@@ -1,22 +1,20 @@
-# IICS Concepts
-
-## Secure Agent
+# Secure Agent
 
 A Secure Agent is a Java program that runs integration tasks and enables secure communication across the firewall between our organization and 
 IICS. More details can be found [here](https://docs.informatica.com/integration-cloud/cloud-platform/current-version/administrator/runtime-environments/secure-agents.html).
 
-### Costs
+## Costs
 
 Secure Agents are licensed at a per-Secure-Agent rate.
 Secure Agents are installed at one Secure Agent per VM/host, or one Secure Agent per Docker Container.
 For more information on the exact cost of a Secure Agent license, please contact us.
 
-### Responsibilities
+## Responsibilities
 
 By running a Secure Agent, you are responsible for ensuring the availability of the Secure Agent program and its underlying VM/host.
 The Secure Agent program is upgraded automatically by Informatica, but you are responsible for managing/patching the underlying operating system.
 
-### Recommendations
+## Recommendations
 
 The DoIT Integration Platform team has experience managing secure agents.
 We run our secure agent in a Docker container on Linux, hosted by Amazon Web Services (AWS).
@@ -34,7 +32,7 @@ Accordingly, make sure configuration files and log files are stored externally t
 The DoIT Integration platform team uses AWS Elastic File System to persist configuration files.
 By doing this, we can destroy and replace our Secure Agent container, or underlying EC2 host, with confidence that the Secure Agent will start and operate in a consistent manner.
 
-### High Availability
+## High Availability
 
 While a single Secure Agent is most cost effective, it does introduce a risk if the Secure Agent or underlying host were to fail.
 By running the Secure Agent in a container platform such as AWS Elastic Container Service (ECS), you can make sure that a single Secure Agent is always running.
@@ -45,39 +43,3 @@ For event-driven integrations, we recommend running at least two Secure Agents i
 If one Secure Agent were to crash, the other would be able to handle requests while the a new Secure Agent is brought up.
 
 For more information on Secure Agents with Cloud Application Integration, please [see this documentation from Informatica](https://kb.informatica.com/faq/7/pages/19/514162.aspx).
-
-## Cloud Data Integration (CDI) and Cloud Application Integration (CAI)
-
-![CDI-CAI](./images/CDI-CAI-venn-diagram.svg)
-
-The diagram source can be found [here](https://app.lucidchart.com/documents/edit/5ab81deb-0dd1-4ca4-9f8b-f1fa2706ec79/0_0).
-
-CDI and CAI are IICS services that are used for integration projects. Depending on the integration criteria, projects can be built using either CDI or CAI, or a hybrid approach when it would be beneficial to an individual project. 
-
-### Cloud Data Integration
-
-Cloud Data Integration (CDI) is IICS's data integration service that allows you to create, schedule, and monitor tasks. It provides a variety of connectors to various data sources and provides mechanisms to transform and map data from source to target.
-
-CDI is best used for projects that have the following characteristics:
-
-- Large batch jobs, i.e. nightly uploads
-- Flat data structure
-- High latency environment
-- Periodic or scheduled jobs
-- Connectors exists for environment
-- Data migration
-- Data Integration Hub
-
-### Cloud Application Integration
-
-Cloud Application Integration (CAI) is IICS's event-driven and service-oriented application integration service. It provides capabilities such as event processing, service orchestration, and process management.
-
-CAI is best used for projects that have the following characteristics:
-
-- Small batch jobs, i.e. single record updates
-- Nested data structures, i.e. JSON, XML
-- Low latency environment
-- Event based / Real time integrations
-- Direct access to APIs
-- Business Processes
-- Composite Services, APIs
