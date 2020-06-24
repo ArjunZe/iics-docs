@@ -40,6 +40,15 @@ If the Secure Agent were to crash, ECS can automatically start a new container.
 
 This containerized single Secure Agent architecture is appropriate for scheduled ETL jobs, but event-driven integrations, such as integrations built on Cloud Application Integration (CAI), have different requirements.
 For event-driven integrations, we recommend running at least two Secure Agents in parallel.
-If one Secure Agent were to crash, the other would be able to handle requests while the a new Secure Agent is brought up.
+If one Secure Agent were to crash, the other would be able to handle requests while a new Secure Agent is brought up.
 
 For more information on Secure Agents with Cloud Application Integration, please [see this documentation from Informatica](https://kb.informatica.com/faq/7/pages/19/514162.aspx).
+
+## Secure Agent For Training and Learning Purposes
+
+There are multiple options if you are looking for a Secure Agent for training and learning purposes. 
+* Install a Secure Agent in your local computer for training and learning proposes. See [installation guide](https://docs.informatica.com/integration-cloud/cloud-application-integration/current-version/2---getting-started/installing-secure-agents.html) for installing Secure Agent locally. 
+* Use Docker image maintained by EI for installing Secure Agent locally. See [documentation](https://git.doit.wisc.edu/interop/iics/iics_secure_agent) (mentioned under Recommendations above as well).
+* Test Secure Agent instance deployed by EI on AWS. See [user guide](https://git.doit.wisc.edu/interop/iics/iics_secure_agent/-/blob/master/userguide.md) for details. 
+
+Note that there is a licensing cost for each long-running Secure Agent. Be sure to remove any Secure Agent that you may install locally after the training/learning period.
