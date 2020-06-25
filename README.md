@@ -26,10 +26,11 @@ The diagram source can be found [here](https://www.lucidchart.com/documents/edit
 
 ## Documentation
 
-This GitLab repository is used as our temporary documentation library for DoIT's offering of Informatica Intelligent Cloud Services (IICS) while we work on selecting a more permanent location.
+This GitLab repository is used as our temporary documentation library for DoIT's offering of Informatica Intelligent Cloud Services (IICS) as part of the first "minimum viable product" (MVP) release.
+For more information on the first release, [please see this blog post](./blog-posts/iics-mvp.md).
 Feel free to navigate this repository by browsing the files or using the links below.
 
-Please contact us (ais-enterprise-integration-informatica@office365.wisc.edu) if you need additional help or if you weren't able to use the documentation to answer your question.
+Please contact us (doit-integration-platform@office365.wisc.edu) if you need additional help or if you weren't able to use the documentation to answer your question.
 Merge requests are welcome if you have suggestions for improving the documentation, but please send us an email if you prefer communicating directly.
 
 IICS is part of the infrastructure and services being delivered by the [Interoperability Initiative](https://interop.it.wisc.edu/).

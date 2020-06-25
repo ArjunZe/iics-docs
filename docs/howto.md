@@ -33,7 +33,7 @@ DoIT EI uses Manifest groups to give teams access to the UW Madison IICS environ
 
 * [ ] After the Manifest group has been created you may then add your team members. Please read the document on [Managing Manifest Group Members](https://kb.wisc.edu/page.php?id=25882).
 
-* [ ] Once you have added the required members please email ais-enterprise-integration-informatica@office365.wisc.edu with the Manifest group path. Example: uw:org:ais:DoIT-AIS-Enterprise-Integration-IICS.
+* [ ] Once you have added the required members please email doit-integration-platform@office365.wisc.edu with the Manifest group path. Example: uw:org:ais:DoIT-AIS-Enterprise-Integration-IICS.
 
     DoIT EI will notify you when we have provided necessary access to the Manifest group. We will also provide you with an IICS User Group name which you will use to restrict access to your team's assets in IICS: 
     [Use user groups to control access](best-practices.md#use-user-groups-to-control-access)
@@ -46,4 +46,4 @@ DoIT EI uses Manifest groups to give teams access to the UW Madison IICS environ
 
 * [ ] To remove an IICS user from your IICS User Group, delete the member in your Manifest Group. Please read the document on [Managing Manifest Group Members](https://kb.wisc.edu/page.php?id=25882).
 
-* [ ] Once you have removed the required members please email ais-enterprise-integration-informatica@office365.wisc.edu with the IICS User Group name, and the NetId of the member to remove. DoIT EI will notify you when we have removed the user from your IICS User Group.
+* [ ] Once you have removed the required members please email doit-integration-platform@office365.wisc.edu with the IICS User Group name, and the NetId of the member to remove. DoIT EI will notify you when we have removed the user from your IICS User Group.
