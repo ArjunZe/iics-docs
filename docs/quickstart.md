@@ -9,7 +9,7 @@ Get started quickly with IICS using below steps.
 If you can't access IICS web console reach out to us: doit-integration-platform@office365.wisc.edu
 
 ## Where To Go Next?
-Learn more about IICS [concepts](./concepts.md), [tutorials](./tutorials.md), and [training](./training.md), or 
+Learn more about IICS [best practices and recommendations](./best-practices.md), [tutorials](./tutorials.md), and [training](./training.md), or 
 get started using Informatica get started [guide](https://network.informatica.com/docs/DOC-17653). 
 
 [^1]: __Test__ IICS uses the NetID Login QA environment, which is connected to production credentials.
