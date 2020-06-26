@@ -1,0 +1,11 @@
+check-links:
+  stage: test
+  tags:
+    - docker
+  image: "node:14"
+  before_script:
+    - npm install -g markdown-link-check
+  script:
+    - cd scripts
+    - ./link-checker.sh
+
