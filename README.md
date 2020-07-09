@@ -39,7 +39,8 @@ IICS is part of the infrastructure and services being delivered by the [Interope
 Use [template.md](./template.md) to create new content.
 
 ## Contents
-* [Quick Start Guide](./docs/quickstart.md)
+* [On-Boarding to IICS](./docs/on-boarding-to-iics.md)
+* [Logging in](./docs/logging-in.md)
 * [Tutorials](./docs/tutorials.md)
 * [How To Guides](./docs/howto.md)
 * [Training](./docs/training.md)
