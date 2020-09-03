@@ -4,8 +4,9 @@ applications, including on-premise-to-cloud, cloud-to-cloud, and cloud-to-on-pre
 products called “Integration Platform as a Service” (iPaaS).
 
 Here are some examples of where IICS can be used:
-* Syncing data from PersonHub to a third-party cloud service on a nightly basis.
-* Processing changes from CAOS in real time to update an on-premises system.
+
+* Syncing data from a database to a third-party cloud service on a nightly basis.
+* Processing changes from an API (e.g. CAOS) in real time to update an on-premises system.
 * Extracting data from a third-party cloud service to populate a reporting database.
 
 The platform caters to a diverse technical audience including those who may have very little integration experience and 

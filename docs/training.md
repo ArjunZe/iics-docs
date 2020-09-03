@@ -10,9 +10,9 @@ Data Integration and Application Integration are the two main components of the 
 
 - Data Integration is meant for moving data in batches on a scheduled or ad-hoc basis.
 Informatica also refers to Data Integration as Cloud Data Integration.
-You can use Data Integration to, for example, create integrations that copy data from one database to another or copy data from a database to a CSV file.
+For example, you can use Data Integration to create integrations that copy data from one database to another or copy data from a database to a CSV file.
 - Application Integration is meant to support real-time integrations that process data in an event-driven or transactional method.
-You might also see Application Referred to as Cloud Application Integration (CAI).
+You might also see Application Integration referred to as Cloud Application Integration (CAI).
 Examples of integrations suited for Application Integration include a process that connects to ActiveMQ and processes events, or a web service that captures webhooks from a system and maps the data into a database.
 
 ## Registration
@@ -27,7 +27,7 @@ You can create an account if you don't already have one.
 
 ## Training Resources
 
-There are two main services offered by Informatica to access training material: Informatica University and the Success Portal.
+There are two main services offered by Informatica to access training material: Informatica University and the Success Portal. We recommend using Informatica University for training and then using the Success Portal for supplemental and ongoing learning.
 
 ### Informatica University
 
