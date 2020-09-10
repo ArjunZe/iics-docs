@@ -22,7 +22,7 @@ See also Informatica [documentation](https://docs.informatica.com/integration-cl
 
 ## How to create a Manifest group for your team for access control?
 [manifest-group]: #how-to-create-a-manifest-group-for-your-team-for-access-control
-DoIT EI uses Manifest groups to give teams access to the UW Madison IICS environment.
+DoIT EI uses Manifest groups to give teams access to the UW-Madison IICS environment.
 
 **Provisioning a team**:
 
@@ -39,7 +39,7 @@ DoIT EI uses Manifest groups to give teams access to the UW Madison IICS environ
     DoIT EI will notify you when we have provided necessary access to the Manifest group. We will also provide you with an IICS User Group name which you will use to restrict access to your team's assets in IICS: 
     [Use user groups to control access](best-practices.md#use-user-groups-to-control-access)
 
-* [ ] Each member of the Manifest group will need to log in to each IICS environment (e.g. test and production) using their UW Madison NetId, which will create an IICS user account for them automatically.
+* [ ] Each member of the Manifest group will need to log in to each IICS environment (e.g. test and production) using their UW-Madison NetId, which will create an IICS user account for them automatically.
 
 * [ ] Please let DoIT EI know when all group members have logged in once. We will then assign the IICS user accounts to the IICS User Group that was provided to you.
 
