@@ -6,7 +6,7 @@ The below diagram describes the scenario. In this scenario, `employee.csv` CSV f
 to a target CSV file called, `employee.csv` inside a target folder. Note that any other type of connection (such as S3, database etc.) can be 
 used interchangeably with the Box connector.
 
-**Note note that Box connector only supports `.CSV` files.**
+**Note that the Box connector only supports `.CSV` (comma-separated values) files.**
 
 ![Using Box connector to move a file.](images/BoxConnectorScenario.svg)
 
