@@ -2,6 +2,9 @@
     "ignorePatterns": [
         {
             "pattern": "interop.it.wisc.edu"
+        },
+        {
+            "pattern": "doit-integration-platform@office365.wisc.edu"
         }
     ]
 }
