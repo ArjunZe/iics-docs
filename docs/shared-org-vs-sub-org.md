@@ -52,15 +52,23 @@ See the [Best Practices](./best-practices.md) for more information.
 This may be a drawback for some applications that need more development environments (e.g. dev, QA, staging).
 Objects can be named or organized to indicate a specific environment (e.g. "dev-mapping", "dev-project"), but having multiple development environments represented in a single org is not recommended.
 
-### Use a Separate Org with Sub-Orgs
+### Use a Sub-Org
 
-This option involves creating a new parent org with sub-orgs contained within it.
-The parent org would represent the production environment, with each sub-org representing a non-production environment.
-For example, you might have a sub-org for dev, a sub-org for test, and then the parent org for production.
+A sub-org is functionally equivalent to a parent org, except some aspects are inherited from the parent org.
+For example, a sub-org inherits licenses and connectors from the parent org. Currently, [ODMAS](https://data.wisc.edu/) group is provisioned in this way.
 
-Unlike using the shared org, using this multi-org approach has extra financial costs. Depending on your needs, the Integration Platform Team might be able to help cover the extra cost. Please [contact us](mailto:doit-integration-platform@office365.wisc.edu) if this is something you would like to explore.
 
-Here are cases when using this multi-org approach would be recommended:
+![UW-Madison-IICS-org-hierarchy.](images/IICS-Organization-hierarchy.svg)
 
-- More than one non-prod environment is needed, since the shared org approach only provides one test and one prod environment.
-- Many integrations are being built, requiring many objects. As a general rule, if you have over 30 projects or connections, this would be better managed by having your own org rather than using the shared org.
+The diagram source can be found [here](https://app.lucidchart.com/documents/edit/5b0329b6-a058-49d8-a379-25d31f48d91a/0_0?beaconFlowId=0AB69376446D424F#?folder_id=home&browser=icon).
+
+- Parent org secure agent groups can also be shared to sub-orgs.
+- A sub-org cannot contain a sub-org. A sub-org can be created from within a parent org, or an existing org can be linked to a parent org to convert it into a sub-org.
+
+Unlike using the shared org, using a sub-org approach has extra financial costs. Depending on your needs, the 
+Integration Platform Team might be able to help cover the extra cost. Please [contact us](mailto:doit-integration-platform@office365.wisc.edu) if this is something you would like to explore.
+
+Here are some recommendation when to use a sub-org:
+- Sub-orgs can be used for isolating different environments such as `test`, `qa` or `prod`. 
+- If your integration requires more than few integration assets and connections, then a sub-org may be a better fit.
+- If fine-grained authorization is needed within an sub-org, a user group can be applied to objects (e.g. assets, connections, secure agents) to limit access to a subset of sub-org users.
